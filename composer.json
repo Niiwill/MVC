@@ -1,0 +1,19 @@
+{
+    "name": "nikola/mvc",
+    "description": "MVC",
+    "authors": [
+        {
+            "name": "NIKOLA",
+            "email": "vidovic94@hotmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.4"
+    },
+
+	"autoload": {
+	    "psr-4": {
+	        "App\\": "app/"
+	    }
+	}
+}
